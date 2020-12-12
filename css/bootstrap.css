@@ -897,7 +897,7 @@ pre code {
 .col-xs-9,
 .col-xs-10,
 .col-xs-11 {
-  float: left;
+  float: center;
 }
 
 .col-xs-12 {

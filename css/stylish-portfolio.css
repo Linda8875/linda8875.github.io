@@ -128,7 +128,7 @@ body {
 
 .services {
   background: #7fbbda;
-  padding: 20px 0;
+  padding: 50px 0;
   color: #ffffff;
 }
 
@@ -141,8 +141,8 @@ i.service-icon {
   border-radius: 50%;
   display: inline-block;
   font-size: 56px;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   line-height: 136px;
   vertical-align: middle;
   text-align: center;

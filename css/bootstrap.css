@@ -1291,7 +1291,7 @@ pre code {
   .col-md-9,
   .col-md-10,
   .col-md-11 {
-    float: left;
+    float: center;
   }
   .col-md-12 {
     width: 100%;

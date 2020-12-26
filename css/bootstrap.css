@@ -392,10 +392,11 @@ p {
 }
 
 .lead {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   font-size: 16px;
   font-weight: 200;
   line-height: 1.4;
+  margin-top: 60px;
 }
 
 @media (min-width: 768px) {

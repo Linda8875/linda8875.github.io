@@ -346,6 +346,9 @@ i.scroll:hover {
   background: url('../img/bg.jpg') no-repeat center center scroll;
   }
 
+  .banner{
+  background: url('../img/skills.png') no-repeat center center scroll;
+  }
   .callout {
   background: url(../img/callout.jpg) no-repeat center center scroll;
   }

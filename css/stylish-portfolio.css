@@ -196,8 +196,8 @@ body {
   position: absolute;
   padding: 14px;
   /* height: 100%; */
-  left: -13px;
-  top: -15px;
+  left: 0px;
+  top: 0px;
   vertical-align: middle;
   background: black;
   border-radius: 50%;

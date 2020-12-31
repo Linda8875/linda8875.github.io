@@ -558,6 +558,11 @@
 .fa-bar-chart-o:before {
   content: "\f080";
 }
+
+.fa-chart-line:before {
+  content: "\f201";
+}
+
 .fa-twitter-square:before {
   content: "\f081";
 }
@@ -725,6 +730,11 @@
 .fa-paperclip:before {
   content: "\f0c6";
 }
+
+.fa-percentage:before {
+  content: "\f541";
+}
+
 .fa-save:before,
 .fa-floppy-o:before {
   content: "\f0c7";

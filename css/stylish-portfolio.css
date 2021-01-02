@@ -119,11 +119,11 @@ body {
 }
 
 .profile {
-  display: table;
+  display: block;
   height: 100%;
   width: 100%;
-  position: relative;
-  background: url('../img/profile.png') no-repeat center center fixed;
+  position: inherit;
+  background: url('../img/profile3.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

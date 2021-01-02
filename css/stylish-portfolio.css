@@ -302,6 +302,11 @@ footer {
     background-color: #ffffff;
 }
 
+.btn-xl-b:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+    border-color: #000000;
+    color: #ffffff;
+    background-color: #000000;
+}
 
 .btn {
     display: inline-block;

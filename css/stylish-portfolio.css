@@ -670,3 +670,12 @@ i.scroll:hover {
 .news-content .news-media.gallery{
     box-shadow:4px 4px 0 #bbb,8px 8px 0 #ddd;
 }
+
+.col-sm-6 {
+  position:relative;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px;
+  float:left;
+  width:50%
+}

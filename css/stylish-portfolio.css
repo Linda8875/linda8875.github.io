@@ -675,7 +675,19 @@ i.scroll:hover {
   position:relative;
   min-height:1px;
   padding-right:15px;
-  padding-left:15px;
-  float:left;
-  width:50%
+  padding-left:15px
+}
+
+@media (min-width: 768px)
+.col-sm-6 {
+    width: 50%
+}
+
+@media (min-width: 768px)
+.col-sm-6 {
+    float: left
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
 }

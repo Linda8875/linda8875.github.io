@@ -341,14 +341,14 @@ footer {
 }
 
 .btn-xl-b {
-    border-color: #000000;
+    border-color: #428bca;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 100;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #428bca;
 }
 
 .top-scroll {

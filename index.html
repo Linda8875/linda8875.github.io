@@ -14,6 +14,8 @@
     <!-- Add custom CSS here -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
   </head>
 
   <body>
@@ -68,32 +70,81 @@
     </div>
 
 <!--Carousel-->
-<div class="carousel-wrapper">
-  <span id="item-1"></span>
-  <span id="item-2"></span>
-  <span id="item-3"></span>
-  <div class="carousel-item item-1">
-    <h2>Item 1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus   accumsan pretium dolor vel convallis. Aliquam erat volutpat. Maecenas lacus nunc, imperdiet sed mi et, finibus suscipit mi.</p>
-    <a class="arrow arrow-prev" href="#item-3"></a>
-    <a class="arrow arrow-next" href="#item-2"></a>
-  </div>
+<div id="clients">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="wow fadeInLeft">Clients</h2>
+      <div class="title-line wow fadeInRight"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+         <div id="owl-clients" class="owl-carousel owl-theme wow fadeInUp">
 
-  <div class="carousel-item item-2">
-    <h2>Item 2</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
-    <a class="arrow arrow-prev" href="#item-1"></a>
-    <a class="arrow arrow-next" href="#item-3"></a>
-  </div>
+          <!-- Clients 1 -->
+          <div class="clients-item">
+            <div class="client-pic text-center">
 
-  <div class="carousel-item item-3">
-    <h2>Item 3</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
-    <a class="arrow arrow-prev" href="#item-2"></a>
-    <a class="arrow arrow-next" href="#item-1"></a>
+              <!-- client photo -->
+              <img src="images/client.jpg" alt="client">
+            </div>
+            <div class="box">
+
+              <!-- Clients content -->
+              <p class="message text-center">"Printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type dummy text of the printing."</p>
+            </div>
+            <div class="client-info text-center">
+
+            <!-- client name -->
+              John Doe, <span class="company">Google</span>
+            </div>
+          </div>
+
+          <!-- Clients 2 -->
+          <div class="clients-item">
+            <div class="client-pic text-center">
+
+              <!-- client photo -->
+              <img src="images/client2.jpg" alt="client">
+            </div>
+            <div class="box">
+
+              <!-- Clients content -->
+              <p class="message text-center">"Lorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type dummy text of the printing and typesetting industry and scrambled."</p>
+            </div>
+            <div class="client-info text-center">
+
+              <!-- client name -->
+              Glen Micheal, <span class="company">CN Technology</span>
+            </div>
+          </div>
+
+          <!-- Clients 3 -->
+          <div class="clients-item">
+            <div class="client-pic text-center">
+
+              <!-- client photo -->
+              <img src="images/client3.jpg" alt="client">
+            </div>
+            <div class="box">
+
+              <!-- Clients content -->
+              <p class="message text-center">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer."</p>
+            </div>
+            <div class="client-info text-center">
+
+              <!-- client name -->
+              Chris Russel, <span class="company">Facebook</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <!-- End of Carousel-->
+
+
 
 <!-- Portfolio -->
 <div id="skills" class="portfolio">
